@@ -1,0 +1,62 @@
+{
+  "numeric_cols": [
+    "Store",
+    "IsPromo2MonthActive",
+    "Log_CompetitionDistance",
+    "Salesstd",
+    "Salesmean",
+    "CompetitionActive",
+    "Snow_Sum",
+    "Rain_Sum",
+    "Max_Temp",
+    "Promo",
+    "Promo2",
+    "SchoolHoliday",
+    "Public_Holiday",
+    "Year",
+    "CompetitionMonthsOpen",
+    "Day",
+    "Month",
+    "WeekOfYear"
+  ],
+  "categorical_cols": [
+    "StateHoliday",
+    "StoreType",
+    "Assortment",
+    "StoreGroup",
+    "DayOfWeek"
+  ],
+  "encoded_cols": [
+    "StateHoliday_Christmas",
+    "StateHoliday_Easter",
+    "StateHoliday_None",
+    "StateHoliday_Public",
+    "StoreType_Extended Store",
+    "StoreType_Flagship Dept Store",
+    "StoreType_Smaller Urban Store",
+    "StoreType_Typical Store",
+    "Assortment_Basic",
+    "Assortment_Extended",
+    "Assortment_Extra",
+    "StoreGroup_1",
+    "StoreGroup_2",
+    "StoreGroup_3",
+    "StoreGroup_4",
+    "DayOfWeek_1",
+    "DayOfWeek_2",
+    "DayOfWeek_3",
+    "DayOfWeek_4",
+    "DayOfWeek_5",
+    "DayOfWeek_6",
+    "DayOfWeek_7"
+  ],
+  "competition_distance_median": 2330.0,
+  "metrics": {
+    "val_rmspe": 0.186,
+    "model": "RandomForestRegressor (51 trees, min_samples_leaf=15), log1p(Sales) target"
+  },
+  "train_date_range": [
+    "2013-01-01",
+    "2015-07-31"
+  ]
+}
