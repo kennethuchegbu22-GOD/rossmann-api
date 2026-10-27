@@ -38,6 +38,8 @@ Example response:
 | POST | `/predict` | Predict sales for one record, or a list of records for a batch |
 
 **Required fields:** `Store` (1-1115), `Date` (YYYY-MM-DD), `Promo` (0/1), `StateHoliday` (`0`, `a`, `b`, `c`), `SchoolHoliday` (0/1)
+
+
 **Optional fields:** `Open` (defaults to 1; if 0 the prediction is 0), `Max_Temp`, `Rain_Sum`, `Snow_Sum`
 
 ## The model
