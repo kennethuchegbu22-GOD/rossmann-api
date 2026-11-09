@@ -51,7 +51,7 @@ Example response:
 
 The full analysis, feature engineering and model comparison are in the notebook: [Kahunda/rossmandataset.ipynb](https://github.com/kennethuchegbu22-GOD/Kahunda/blob/main/rossmandataset.ipynb).
 
-The notebook's larger, tuned Random Forest scored 0.1723, but its saved file was 233 MB. This deployed version is a smaller forest trained to fit GitHub's file limit and Render's free-tier memory, at a small cost in accuracy.
+The notebook's larger, tuned Random Forest had a validation RMSPE of 0.1723, but its saved file was 233 MB. This deployed version is a smaller forest trained to fit GitHub's file limit and Render's free-tier memory, at a small cost in accuracy.
 
 ## Limitations
 
